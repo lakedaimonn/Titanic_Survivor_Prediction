@@ -9,8 +9,8 @@ from tensorflow.keras.models import Model
 from tensorflow.keras.optimizers import Adam
 import numpy as np
 
-train_df = pd.read_excel('/home/, sheet_name = 'train')
-test_df = pd.read_excel('/home/, sheet_name = 'test')
+train_df = pd.read_excel('/home/titanic_wiki.xlsx', sheet_name = 'train')
+test_df = pd.read_excel('/home/titanic_wiki.xlsx', sheet_name = 'test')
 
 labels = ['death', 'survival']
 
